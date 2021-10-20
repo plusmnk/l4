@@ -4,11 +4,13 @@
 	font-family: 'montserrat';
 	text-decoration: none;
 	outline: 0;
+	box-sizing: border-box;
 }
 body {
 	width: 100%;
 	max-width: 1800px;
 	margin: 0 auto;
+	overflow-x: hidden;
 }
 .container {
 	width: 100%;
@@ -659,6 +661,7 @@ nav .links {
 	padding: 30px 0;
 	background-color: #312f30;
 	color: #fff;
+	box-sizing: border-box;
 }
 .footer .links,
 .footer .author {
@@ -751,9 +754,11 @@ nav a {
 }
 .gtouch .box .box1 .box1-2 .item .text1 {
 	float: none;
+	clear: both;
 }
 .gtouch .box .box1 .box1-2 .item .text2 {
 	float: none;
+		clear: both;
 }
 
 }
