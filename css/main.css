@@ -1,0 +1,759 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'montserrat';
+	text-decoration: none;
+	outline: 0;
+}
+body {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* navbar */
+nav {
+	position: absolute;
+	top: 25px;
+	width: 100%;
+	max-width: 1200px;
+	background-color: #312f30;
+	padding: 25px 0;
+	text-align: center;
+}
+nav .qwerty {
+	padding-right: 15px;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	text-align: right;
+	display: none;
+}
+nav button {
+	background-color: rgba(0,0,0,0);
+	border: none;
+	font-family: montserrat;
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 25px 30px;
+}
+nav a:hover {
+	background-color: #ff3f40;
+	transition: .5s;
+}
+
+/* header */
+.header {
+	width: 100%;
+	height: 100%;
+	padding: 175px 0 130px 0;
+	background-color: #f6f2f1;
+}
+.header section {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.header section .item {
+	width: 50%;
+	height: 100%;
+}
+.header section .item1 {
+	padding-top: 25px;
+}
+.header section h2 {
+	font-weight: 800;
+	font-size: 3.4em;
+	letter-spacing: 4px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.header section p {
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+.header section button {
+	padding: 13px 45px;
+	background-color: #ff2d2e;
+	border-radius: 4px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.header section button:hover {
+	cursor: pointer;
+	background-color: #312f30;
+	color: #fff;
+	transition: .4s;
+}
+.header .video {
+	width: 100%;
+	height: 350px;
+	background-color: #c4c1b2;
+	border-radius: 10px;
+	box-shadow: 0 0 30px 4px rgba(0,0,0,.2);
+}
+
+/* services */
+.sec1 {
+	width: 100%;
+	padding: 85px 0;
+}
+.sec1 i {
+	font-size: 2.4em;
+	color: #ff3f40;
+}
+.sec1 .box {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.sec1 .box1, .sec1 .box2 {
+	width: 50%;
+}
+.sec1 .box2 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+}
+.sec1 .box2 .item {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 15px 5px;
+}
+.sec1 .box1 h2 {
+	font-weight: 700;
+	font-size: 2.7em;
+	margin-bottom: 15px;	
+}
+.sec1 .box1 p {
+	font-size: 16px;
+	margin-bottom: 45px;
+}
+.sec1 .box1 button {
+	padding: 12px 45px;
+	background-color: #fff;
+	border-radius: 4px;
+	border: none;
+	color: #ff2d2e;
+	border: 1px solid #ff2d2e;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.sec1 .box1 button:hover {
+	cursor: pointer;
+	color: #fff;
+	background-color: #ff2d2e;
+	transition: .4s;
+}
+.sec1 .box2 .item span {
+	font-style: italic;
+}
+.sec1 .box2 .item h4 {
+	margin: 15px 0 10px 0;
+}
+
+/* line */
+.line {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+	border: 1px solid #ececec;
+}
+
+/* products */
+.fp {
+	width: 100%;
+	padding: 70px 0;
+	text-color: #585858;
+}
+.fp .section1 {
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.fp .section1 h2 {
+	font-size: 2.2em;
+	font-weight: 800;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.fp .section1 p {
+	margin-bottom: 25px;
+}
+.fp .section1 .chiziq {
+	width: 150px;
+	margin: 0 auto;
+	border: 1px solid #ff3b3c;
+}
+.fp .links {
+	padding: 20px 0;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.fp .links a {
+	color: #585858;
+	padding: 0 30px;
+}
+.fp .links a:hover {
+	color: #ff3b3c;
+	transition: .2s;
+}
+.fp .items {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.fp .items .item {
+	width: 285px;
+	height: 285px;
+	background-color: #f5f0dd;
+}
+.fp .items .item:hover {
+	background-color: #ff3b3c;
+	transition: .8s;
+}
+
+/* team */
+.team {
+	width: 100%;
+	padding: 70px 0;
+	text-color: #585858;
+}
+.team .section1 {
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.team .section1 h2 {
+	font-size: 2.2em;
+	font-weight: 800;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.team .section1 p {
+	margin-bottom: 25px;
+}
+.team .section1 .chiziq {
+	width: 150px;
+	border: 1px solid #ff3b3c;
+}
+.team .section2 {
+	margin-top: 25px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 10px;
+}
+.team .section2 .box1 {
+	width: 345px;
+}
+.team .section2 .box2 {
+	width: 845px;
+	padding-left: 40px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+.team .section2 .box2 .item2 {
+	margin-top: 50px;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+.team .section2 .box1,
+.team .section2 .box2 .item2 .item {
+	background-color: #f5f0dd;
+}
+.team .section2 .box2 .item2 .item {
+	width: 24%;
+	box-sizing: border-box;
+}
+.team .section2 .box2 .item1 h4 {
+	font-size: 1.6em;
+	font-weight: 500;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.team .section2 .box2 .item1 p {
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+.team .section2 .box2 .item1 a {
+	color: #585858;
+	font-style: italic;
+	font-weight: 500;
+	margin-right: 20px;
+}
+.team .section2 .box2 .item1 a:hover {
+	color: #ff3b3c;	
+	transition: .2s;
+}
+.team .section2 .box2 .item2 .item {
+	height: 185px;
+	box-sizing: border-box;
+}
+.team .section2 .box2 .item2 .item:not(:nth-child(1)) {
+	margin-left: 10px;
+}
+.team .section2 .box2 .item2 .item .info {
+	position: relative;
+	top: 143px;
+	visibility: hidden;
+	padding: 5px 0;
+	background-color: #7b786f;
+	color: #fff;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+}
+.team .section2 .box2 .item2 .item:hover .info {
+	visibility: visible;
+}
+
+/* subscribe */
+.subscribe {
+	width: 100%;
+	padding: 75px 0;
+	background-color: #f5f0dd;
+	text-align: center;
+}
+.subscribe h2 {
+	font-size: 2.3em;
+	font-weight: 700;
+	margin-bottom: 15px;
+	color: #fff;
+}
+.subscribe p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 45px;
+	color: #fff;
+}
+.subscribe input {
+	border: 0;
+	width: 400px;
+	padding: 15px 25px;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+.subscribe button {
+	margin-left: 8px;
+	padding: 15px 30px;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: 0;
+	background-color: #ff2d2e;
+	color: #fff;
+	border-radius: 5px;
+}
+.subscribe button:hover {
+	cursor: pointer;
+	background-color: #312f30;
+	color: #fff;
+	transition: .4s;
+}
+
+/* get in touch */
+.gtouch {
+	padding: 70px 0;
+	width: 100%;
+	/*position: relative;*/
+}
+.gtouch .section1 {
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.gtouch .section1 h2 {
+	font-size: 2.2em;
+	font-weight: 800;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.gtouch .section1 p {
+	margin-bottom: 25px;
+}
+.gtouch .section1 .chiziq {
+	width: 150px;
+	border: 1px solid #ff3b3c;
+}
+.gtouch .box {
+	margin-top: 35px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.gtouch .box .box1 {
+	width: 720px;
+	height: 100%;
+	box-sizing: border-box;
+}
+.gtouch .box .box2 {
+	position: relative;
+	width: 480px;
+	height: 100%;
+	background-color: #2d2d2d;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 96px 0 96px 75px;
+}
+.gtouch .box .box1 {
+	box-sizing: border-box;
+	padding-right: 75px;
+}
+.gtouch .box .box1 .box1-2 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+.gtouch .box .box1 .box1-2 .item {
+	width: 50%;
+}
+.gtouch .box .box1 .box1-2 .item input {
+	box-sizing: border-box;
+	width: 90%;
+	border: 0;
+	padding: 15px 25px;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	background-color: #e5e5e5;
+	border: 1px solid #e5e5e5;
+}
+.gtouch .box .box1 .box1-2 .item input:hover,
+.gtouch .box .box1 .box1-2 .item input:focus {
+	border: 1px solid #e5e5e5;
+	background-color: #eee;
+}
+.gtouch .box .box1 .box1-2 .item .text1 {
+	float: left;
+}
+.gtouch .box .box1 .box1-2 .item .text2 {
+	float: right;
+}
+.gtouch .box .box1 textarea {
+	box-sizing: border-box;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 250px;
+	max-height: 250px;
+	border: 0;
+	padding: 15px 25px;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	background-color: #e5e5e5;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 20px;
+}
+.gtouch .box .box1 textarea:hover,
+.gtouch .box .box1 textarea:focus {
+	border: 1px solid #e5e5e5;
+	background-color: #eee;
+}
+.gtouch .box .box1 button {
+	width: 100%;
+	padding: 15px 0;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: 0;
+	background-color: #ff2d2e;
+	color: #fff;
+	border-radius: 5px;
+}
+.gtouch .box .box1 button:hover {
+	cursor: pointer;
+	background-color: #312f30;
+	color: #fff;
+	transition: .4s;
+}
+.gtouch .box .box2 h4 {
+	text-transform: uppercase;
+}
+.gtouch .box .box2 span {
+	display: block;
+	margin-top: 35px;
+}
+
+/* footer */
+.footer {
+	/*position: relative;*/
+	padding: 30px 0;
+	/*margin-top: 30px;*/
+	background-color: #312f30;
+	color: #fff;
+}
+.footer .author {
+	/*float: left;*/
+}
+.footer .links {
+	float: right;
+}
+.footer a {
+	color: #fff;
+	font-size: 20px;
+}
+.footer a:hover {
+	color: #ff3b3c;
+	transition: .2s;
+}
+.footer a:not(:nth-child(1)) {
+	margin-left: 15px;
+}
+
+
+/* responsive for tablets */
+@media screen and (max-width: 768px) {
+
+/* container */
+.container {
+	padding: 0 25px;
+	box-sizing: border-box;
+}
+
+/* navbar */
+nav {
+	left: 0;
+	width: 100%;
+}
+nav .qwerty {
+	display: block;
+}
+nav .links {
+	display: none;
+}
+
+/* header */
+.header section .item {
+	width: 100%;
+}
+.header section .item1 {
+	margin-bottom: 75px;
+}
+.header section .item1 h2 {
+	font-size: 2.5em;
+}
+.header section .item1 p {
+	margin-bottom: 40px;
+}
+
+/* section1 */
+.sec1 .box1, .sec1 .box2 {
+	width: 100%;
+}
+.sec1 .box1 {
+	margin-bottom: 70px;
+}
+
+/* feature products */
+.fp .items {
+	gap: 5px;
+}
+.fp .items .item {
+	width: 49%;
+}
+
+/* our team */
+.team .section2 .box2 {
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+.team .section2 .box2 .item2 {
+	gap: 5px;
+}
+.team .section2 .box2 .item2 .item {
+	width: 49%;
+	box-sizing: border-box;
+}
+.team .section2 .box2 .item2 .item:not(:nth-child(1)) {
+    margin-left: 0px;
+}
+.team .section2 .box2 .item2 .item .info {
+	visibility: visible;
+}
+
+/* subscribe */
+.subscribe input, .subscribe button {
+	display: block;
+	margin: 0 auto;
+}
+.subscribe input {
+	width: 80%;
+	box-sizing: border-box;
+}
+.subscribe button {
+	margin: 20px auto 0 auto;
+}
+
+/* gtouch */
+.gtouch {
+	margin-top: 70px;
+	padding: 0;
+	width: 100%;
+	position: relative;
+}
+.gtouch .section1 {
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.gtouch .section1 h2 {
+	font-size: 2.2em;
+	font-weight: 800;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.gtouch .section1 p {
+	margin-bottom: 25px;
+}
+.gtouch .section1 .chiziq {
+	width: 150px;
+	border: 1px solid #ff3b3c;
+}
+.gtouch .box {
+	margin-top: 35px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.gtouch .box .box1 {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	margin-bottom: 55px;
+	padding-right: 0;
+}
+.gtouch .box .box2 {
+	width: 100%;
+	padding: 70px 0 70px 75px;
+}
+
+/* footer */
+.footer {
+	padding: 30px 0;
+	background-color: #312f30;
+	color: #fff;
+}
+.footer .links,
+.footer .author {
+	display: block;
+	text-align: center;
+}
+.footer .links {
+	margin-top: 15px;
+	float: none;	
+}
+.footer a {
+	color: #fff;
+	font-size: 20px;
+}
+}
+
+/* reponsive - 435px */
+@media screen and (max-width: 435px) {
+
+/* header h2 */
+.header section .item1 h2 {
+	font-size: 2.1em;
+}
+
+}
+
+/* responsive for mobile devices */
+@media screen and (max-width: 414px) {
+
+/* navbar */
+nav a {
+	display: block;
+
+}
+
+/* section1 */
+.sec1 .box1 button {
+	width: 100%;
+}
+.sec1 .box2 .item {
+	width: 100%;
+}
+.sec1 .box2 .item i {
+	font-size: 3em;
+}
+
+/* feature products */
+.fp .links a {
+	display: block;
+}
+.fp .links a:not(:nth-child(1)) {
+	margin-top: 10px;
+}
+.fp .items {
+	gap: 10px;
+}
+.fp .items .item {
+	width: 100%;
+}
+
+/* our team */
+.team .section2 .box2 .item1 a {
+	display: block;
+}
+.team .section2 .box2 .item1 a:not(:nth-child(1)) {
+	margin-top: 10px;
+}
+.team .section2 .box2 .item2 {
+	gap: 15px;
+}
+.team .section2 .box2 .item2 .item {
+	width: 100%;
+}
+
+/* subscribe */
+.subscribe input,
+.subscribe button {
+	width: 100%;
+}
+
+/* gtouch */
+.gtouch .box .box1 .box1-2 .item {
+	width: 100%;
+}
+.gtouch .box .box1 .box1-2 .item:nth-child(2) {
+	margin-top: 15px;
+}
+.gtouch .box .box1 .box1-2 .item input {
+	width: 100%;
+}
+.gtouch .box .box1 .box1-2 .item .text1 {
+	float: none;
+}
+.gtouch .box .box1 .box1-2 .item .text2 {
+	float: none;
+}
+
+}
