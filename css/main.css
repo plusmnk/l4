@@ -160,7 +160,7 @@ nav a:hover {
 .sec1 .box1 button:hover {
 	cursor: pointer;
 	color: #fff;
-	border: 2px solid #ff2d2e;
+	border: 1px solid #ff2d2e;
 	background-color: #ff2d2e;
 }
 .sec1 .box2 .item span {
