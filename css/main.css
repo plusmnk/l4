@@ -147,20 +147,21 @@ nav a:hover {
 }
 .sec1 .box1 button {
 	padding: 12px 45px;
-	background-color: #312f30;
+	background-color: rgba(0,0,0,0);
 	border-radius: 4px;
-	border: none;
+	border: 1px solid #312f30;
 	color: #312f30;
 	border: 1px solid #ff2d2e;
 	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 1px;
+	transition: .4s;
 }
 .sec1 .box1 button:hover {
 	cursor: pointer;
 	color: #fff;
+	border: 1px solid #ff2d2e;
 	background-color: #ff2d2e;
-	transition: .4s;
 }
 .sec1 .box2 .item span {
 	font-style: italic;
